@@ -247,7 +247,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "My_Library"
+    ]
   },
   "meta": {
     "filename": "Linux_core_am3352_20251013.kicad_pro",

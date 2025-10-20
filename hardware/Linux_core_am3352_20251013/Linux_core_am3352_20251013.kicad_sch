@@ -6118,6 +6118,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "转换的电源需要引出"
+		(exclude_from_sim no)
+		(at 78.486 101.346 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae0fd484-e2ea-46ec-84f6-460b8601747b")
+	)
 	(symbol
 		(lib_id "My_Library:AM3352BZCZ100")
 		(at 330.2 101.6 0)
@@ -8192,7 +8202,7 @@
 	)
 	(symbol
 		(lib_id "My_Library:AM3352BZCZ100")
-		(at 160.02 102.87 0)
+		(at 157.48 91.44 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8201,7 +8211,7 @@
 		(fields_autoplaced yes)
 		(uuid "ace67efa-ce41-4113-9df3-a3e920f60c54")
 		(property "Reference" "U1"
-			(at 160.02 26.67 0)
+			(at 157.48 15.24 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8209,7 +8219,7 @@
 			)
 		)
 		(property "Value" "AM3352BZCZ100"
-			(at 160.02 29.21 0)
+			(at 157.48 17.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8217,7 +8227,7 @@
 			)
 		)
 		(property "Footprint" "My_Library:ZCZ0324A"
-			(at 160.02 102.87 0)
+			(at 157.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8227,7 +8237,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/am3352"
-			(at 160.02 102.87 0)
+			(at 157.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8237,7 +8247,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 102.87 0)
+			(at 157.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9222,6 +9232,48 @@
 				(path "/7fc27d12-54b0-4042-9bc1-38782b385460"
 					(reference "U1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 119.38)
+		(size 21.59 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "68d2f790-1c46-4044-8dc0-bf235c5227a2")
+		(property "Sheetname" "power_tps65217"
+			(at 66.04 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_tps65217.kicad_sch"
+			(at 66.04 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Linux_core_am3352_20251013"
+				(path "/7fc27d12-54b0-4042-9bc1-38782b385460"
+					(page "3")
 				)
 			)
 		)
